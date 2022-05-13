@@ -1,6 +1,6 @@
 package homework.JavaBook.chapter3;
 
-public class FigurePainter1 {
+public class Figure1Painter2 {
     public static void main(String[] args) {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < i; j++) {
