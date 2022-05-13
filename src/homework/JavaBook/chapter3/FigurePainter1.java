@@ -1,21 +1,20 @@
 package homework.JavaBook.chapter3;
 
-public class Figure2 {
+public class FigurePainter1 {
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++) {
-            for (int k = 5; k > i; k--) {
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < i; j++) {
                 System.out.print("  ");
+
             }
-
-
-            for (int j = 0; j <= i; j++) {
+            for (int k = 4; k > i; k--) {
                 System.out.print("* ");
 
             }
             System.out.println();
-
-
         }
-    }
-}
 
+
+
+    }
+    }
