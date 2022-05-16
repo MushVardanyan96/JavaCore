@@ -34,21 +34,26 @@ public class ArrayUtil {
         int evenNumbers = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 1) {
+                System.out.print(" " + array[i]);
                 evenNumbers++;
             }
         }
-        System.out.println("evenNumbers = " + evenNumbers);
+        System.out.println(" evenNumbers = " + evenNumbers);
 
         //Տպել մասիվի բոլոր կենտ էլեմենտները
         int oddNumbers = 0;
         for (int i = 0; i < array.length; i++) {
             if(array[i] % 2 == 0) {
+
                 oddNumbers++;
+                System.out.print(" " + array[i]);
             }
         }
-        System.out.println("oddNumbers = " + oddNumbers);
+        System.out.println(" oddNumbers = " + oddNumbers);
 
         //Տպել զույգերի քանակը
+
+        //ու ստեղից ուղեղիցս ծուխ դուրս եկավ =D
 
 
     }
