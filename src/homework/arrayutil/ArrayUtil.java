@@ -31,35 +31,67 @@ public class ArrayUtil {
         System.out.println("minNumbers = " + minNumbers);
 
         //Տպել մասիվի բոլոր զույգ էլեմենտները
-        int evenNumbers = 0;
+        System.out.print("evenNumbers = ");
         for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 == 1) {
+            if (array[i] % 2 == 0) {
                 System.out.print(" " + array[i]);
-                evenNumbers++;
             }
         }
-        System.out.println(" evenNumbers = " + evenNumbers);
+        System.out.println();
 
         //Տպել մասիվի բոլոր կենտ էլեմենտները
-        int oddNumbers = 0;
+        System.out.print("oddNumbers = ");
         for (int i = 0; i < array.length; i++) {
-            if(array[i] % 2 == 0) {
+            if (array[i] % 2 == 1) {
 
-                oddNumbers++;
                 System.out.print(" " + array[i]);
             }
         }
-        System.out.println(" oddNumbers = " + oddNumbers);
+        System.out.println();
 
         //Տպել զույգերի քանակը
+        int evenNumbers = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 0) {
+                evenNumbers++;
+            }
 
-        //ու ստեղից ուղեղիցս ծուխ դուրս եկավ =D
+        }
+        System.out.print("զույգերի քանակը = " + evenNumbers);
+        System.out.println();
 
+        //կենտերի քանակը
+        int oddNumbers = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 1){
+                oddNumbers ++;
+            }
+
+        }
+        System.out.print("կենտերի քանակը = " + oddNumbers);
+        System.out.println();
+        //
+        double x = 0;
+        for (int i = 0; i < array.length; i++) {
+            x+= array[i];
+
+        }
+        System.out.println("միյին թվաբանականը = " + x/array.length);
+
+        //
+        int gumary =0;
+        for (int i = 0; i < array.length; i++) {
+            gumary += array[i];
+
+        }
+        System.out.println("gumary = " + gumary);
 
     }
 
 
 }
+
+
 
 
 
