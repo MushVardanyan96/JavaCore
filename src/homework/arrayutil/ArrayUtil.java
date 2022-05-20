@@ -63,23 +63,24 @@ public class ArrayUtil {
         //կենտերի քանակը
         int oddNumbers = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 == 1){
-                oddNumbers ++;
+            if (array[i] % 2 == 1) {
+                oddNumbers++;
             }
 
         }
         System.out.print("կենտերի քանակը = " + oddNumbers);
         System.out.println();
+
         //
         double x = 0;
         for (int i = 0; i < array.length; i++) {
-            x+= array[i];
+            x += array[i];
 
         }
-        System.out.println("միյին թվաբանականը = " + x/array.length);
+        System.out.println("միյին թվաբանականը = " + x / array.length);
 
         //
-        int gumary =0;
+        int gumary = 0;
         for (int i = 0; i < array.length; i++) {
             gumary += array[i];
 
