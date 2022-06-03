@@ -90,6 +90,8 @@ public class ArrayUtil {
     }
 
 
+    public void printElements(int[] array) {
+    }
 }
 
 
